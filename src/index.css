@@ -1,0 +1,49 @@
+@import 'fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#introduction>.first-img {
+  background-image: url('/images/couple_1.jpg');
+}
+
+#introduction>.second-img {
+  background-image: url('/images/couple_2.jpg');
+}
+
+#introduction>.third-img {
+  background-image: url('/images/couple_3.jpg');
+}
+
+#introduction>.forth-img {
+  background-image: url('/images/couple_4.jpg');
+}
+
+#schedule .image-container,
+#location .image-container,
+#photos .image-container,
+#rsvp .image-container {
+  background-image: url('/images/background_cropped.png');
+  opacity: 0.15;
+}
+
+/* Mobile CSS */
+@media only screen and (max-device-width: 767px) {
+
+  #schedule .image-container,
+  #location .image-container,
+  #photos .image-container,
+  #rsvp .image-container {
+    background-image: url('/images/background_cropped_mobile.png');
+  }
+
+
+  #introduction>.second-img {
+    background-image: url('/images/couple_4.jpg');
+  }
+
+  #introduction>.third-img {
+    background-image: url('/images/couple_1.jpg');
+  }
+}

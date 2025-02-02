@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: Gistesy;
+    src: url('/fonts/Gistesy.ttf');
+}
+  
+@font-face {
+    font-family: 'Black Mango';
+    src: url('/fonts/BlackMango.ttf');
+}
+  
+@font-face {
+    font-family: 'TT Commons Pro';
+    src: url('/fonts/TT_Commons_Pro_ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'TT Commons Pro';
+    src: url('/fonts/TT_Commons_Pro_ExtraLight_Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+  
+@font-face {
+    font-family: 'TT Commons Pro';
+    src: url('/fonts/TT_Commons_Pro_Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'TT Commons Pro';
+    src: url('/fonts/TT_Commons_Pro_Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+  
+@font-face {
+    font-family: 'TT Commons Pro';
+    src: url('/fonts/TT_Commons_Pro_ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'TT Commons Pro';
+    src: url('/fonts/TT_Commons_Pro_ExtraBold_Italic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+  
+.font-gistesy{
+    font-family: Gistesy;
+}
+  
+.font-blackmango{
+    font-family: 'Black Mango';
+}
+  
+.font-tt-commons-pro-thin{
+    font-family: 'TT Commons Pro';
+    font-weight: 200;
+    font-style: normal;
+}
+.font-tt-commons-pro-thin-italic{
+    font-family: 'TT Commons Pro';
+    font-weight: 200;
+    font-style: italic;
+}
+  
+.font-tt-commons-pro{
+    font-family: 'TT Commons Pro';
+    font-weight: 400;
+    font-style: normal;
+}
+.font-tt-commons-pro-italic{
+    font-family: 'TT Commons Pro';
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.font-tt-commons-pro-bold{
+    font-family: 'TT Commons Pro';
+    font-weight: 800;
+    font-style: normal;
+}
+.font-tt-commons-pro-bold-italic{
+    font-family: 'TT Commons Pro';
+    font-weight: 800;
+    font-style: italic;
+}
